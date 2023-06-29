@@ -2,11 +2,12 @@ package com.example.demo.Controllers;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.example.demo.models.UserVO;
+
 import java.util.Arrays;
 import java.util.List;
 
 import org.springframework.stereotype.Controller;
-import com.example.demo.Models.UserVO;
 
 @Controller
 public class UserController {
